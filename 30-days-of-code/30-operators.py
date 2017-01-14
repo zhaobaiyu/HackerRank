@@ -1,0 +1,5 @@
+c = float(input())
+p1 = int(input())
+p2 = int(input())
+ans = round(c + c * (p1 + p2) / 100)
+print('The total meal cost is', ans, 'dollars.')
